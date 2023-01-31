@@ -29,6 +29,6 @@ class YaUploader:
 
 if __name__ == '__main__':
     path_to_file = '/test/test.txt'
-    token = 'y0_AgAAAAAA8wHXAADLWwAAAADbCiFJmRBQvIK8SqG0Uutis0VvAAphkq4'
+    token = ''
     uploader = YaUploader(token)
     uploader.upload(path_to_file,'1.txt')
